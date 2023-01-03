@@ -1,0 +1,14 @@
+ version: v1
+ name: buf.build/johnvajda/petapis
+ deps:
+   -  buf.build/googleapis/googleapis
+   -  buf.build/johnvajda/paymentapis
+ breaking:
+   use:
+     - FILE
+ lint:
+   use:
+     - DEFAULT
+
+
+
